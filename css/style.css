@@ -144,7 +144,6 @@ banner
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
-    height: 100%;
 	position: relative;
 }
 .bg-color{
@@ -278,18 +277,6 @@ about
 	padding-bottom: 10px;
 }
 /***************************************
-doctor team
-***************************************/
-.thumbnail {
-	border-radius: 0px;
-}
-.caption h3{
-    padding-bottom: 5px;
-}
-.caption p{
-    padding-bottom: 10px;
-}
-/***************************************
 testimonial
 ***************************************/
 #testimonial{
@@ -380,16 +367,23 @@ cta -2
 	margin-right: 7px;
 }
 /***************************************
-contact us
+subscribe
 ***************************************/
 .space {
     margin-top: 40px;
 }
-.btn-form, .btn-form:hover, .btn-form:focus {
-    background-color: #0cb8b6;
+.btn-form {
+    background-color: rgba(12, 184, 182, 0.91);
     color: #fff;
-    border-radius: 0px;
+    border-radius: 3px;
     padding: 10px 20px;
+    margin-top: 20px;
+	font-size: 16px;
+}
+.btn-form:hover, .btn-form:focus {
+    background-color: #fff;
+    color: rgba(12, 184, 182, 0.91);
+    border-color: rgba(12, 184, 182, 0.91);
 }
 .br-radius-zero {
     border-radius: 0px;
@@ -429,8 +423,26 @@ contact us
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
-
-
+/***************************************
+contact
+***************************************/
+.team-img {
+    width: 100%;
+}
+.btn-github {
+	margin-top: 20px;
+    margin-right: 5px;
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: rgba(12, 184, 182, 0.91);
+	border-radius: 3px;
+	color: #fff;
+}
+.btn-github:hover, .btn-appoint:focus {
+    background-color: #fff;
+    color: rgba(12, 184, 182, 0.91);
+    border-color: rgba(12, 184, 182, 0.91);
+}
 /***************************************
 footer
 ***************************************/
