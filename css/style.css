@@ -371,6 +371,9 @@ subscribe
 .space {
     margin-top: 40px;
 }
+.subscribe-form-container {
+    text-align: right;
+}
 .btn-form {
     background-color: rgba(12, 184, 182, 0.91);
     color: #fff;
