@@ -440,7 +440,7 @@ contact
 	border-radius: 3px;
 	color: #fff;
 }
-.btn-github:hover, .btn-appoint:focus {
+.btn-github:hover, .btn-github:focus {
     background-color: #fff;
     color: rgba(12, 184, 182, 0.91);
     border-color: rgba(12, 184, 182, 0.91);
