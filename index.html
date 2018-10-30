@@ -11,6 +11,13 @@
 
     gtag('config', 'UA-128258292-2');
   </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5DF5D44');</script>
+  <!-- End Google Tag Manager -->
 
 
   <meta charset="utf-8">
@@ -48,11 +55,11 @@
             </div>
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#banner">Home</a></li>
-                <li class=""><a href="#about">About</a></li>
-                <li class=""><a href="#video">Video</a></li>
-                <li class=""><a href="#subscribe">Subscribe</a></li>
-                <li class=""><a href="#contact">Contact</a></li>
+                <li class="active"><a href="#banner" onclick="gtag('event', 'click', {'event_category': 'header-click','event_label': 'banner','value': 1});">Home</a></li>
+                <li class=""><a href="#about" onclick="gtag('event', 'click', {'event_category': 'header-click','event_label': 'about','value': 1});">About</a></li>
+                <li class=""><a href="#video" onclick="gtag('event', 'click', {'event_category': 'header-click','event_label': 'video','value': 1});">Video</a></li>
+                <li class=""><a href="#subscribe" onclick="gtag('event', 'click', {'event_category': 'header-click','event_label': 'subscribe','value': 1});">Subscribe</a></li>
+                <li class=""><a href="#contact" onclick="gtag('event', 'click', {'event_category': 'header-click','event_label': 'contact','value': 1});">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -211,11 +218,11 @@
           <p>We are students from Carnegie Mellon University.</p>
           <p>Our team is trying to fully utilize our software kownledge to improve the current process of a Search and Rescue operation. </p>
           <p>Should you have any questions or suggestions, feel free to contact us on Github!</p>
-          <a class="btn btn-github" href="https://github.com/jeromekimbrough" target="_blank"> <i class="fa fa-github fa-fw fa-lg"></i> Jerome Kimbrough </a>
-          <a class="btn btn-github" href="https://github.com/pintojoey" target="_blank"> <i class="fa fa-github fa-fw fa-lg"></i> Joey Pinto </a>
-          <a class="btn btn-github" href="https://github.com/lulu2184" target="_blank"> <i class="fa fa-github fa-fw fa-lg"></i> Lu Liu </a>
-          <a class="btn btn-github" href="https://github.com/sabrinahsu" target="_blank"> <i class="fa fa-github fa-fw fa-lg"></i> Sabrina Hsu </a>
-          <a class="btn btn-github" href="https://github.com/novinsomnia" target="_blank"> <i class="fa fa-github fa-fw fa-lg"></i> Zoe Xia </a>
+          <a class="btn btn-github" href="https://github.com/jeromekimbrough" target="_blank" onclick="gtag('event', 'click', {'event_category': 'github-click','event_label': 'jerome','value': 1});"> <i class="fa fa-github fa-fw fa-lg"></i> Jerome Kimbrough </a>
+          <a class="btn btn-github" href="https://github.com/pintojoey" target="_blank" onclick="gtag('event', 'click', {'event_category': 'github-click','event_label': 'pintojoey','value': 1});"> <i class="fa fa-github fa-fw fa-lg"></i> Joey Pinto </a>
+          <a class="btn btn-github" href="https://github.com/lulu2184" target="_blank" onclick="gtag('event', 'click', {'event_category': 'github-click','event_label': 'lu','value': 1});"> <i class="fa fa-github fa-fw fa-lg"></i> Lu Liu </a>
+          <a class="btn btn-github" href="https://github.com/sabrinahsu" target="_blank" onclick="gtag('event', 'click', {'event_category': 'github-click','event_label': 'sabrina','value': 1});"> <i class="fa fa-github fa-fw fa-lg"></i> Sabrina Hsu </a>
+          <a class="btn btn-github" href="https://github.com/novinsomnia" target="_blank" onclick="gtag('event', 'click', {'event_category': 'github-click','event_label': 'zoe','value': 1});"> <i class="fa fa-github fa-fw fa-lg"></i> Zoe Xia </a>
         </div>
       </div>
     </div>
@@ -227,7 +234,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            © Copyright SaRID Team. All Rights Reserved
+            © Copyright SaRID Team - 2018 - All Rights Reserved
             <div class="credits">
               <!--
                 All the links in the footer should remain intact.
